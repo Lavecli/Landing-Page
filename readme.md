@@ -1,0 +1,1 @@
+This is my first website design I'm working on properly. Hopefully after completing this project I'd have improved my web development skills. 
