@@ -7,7 +7,7 @@
 
 .navbar{
     background:#1f2937;
-    height: 350px;
+    height: 500px;
 }
 
 .sec-navbar{
@@ -15,8 +15,8 @@
     width: 500px;
     margin: 0 auto;
     flex-direction: column;
-    margin-right: 30px;
-    margin-top: 50px;
+    margin-right: 25px;
+    margin-top: 100px;
 }
 
 .hero{
@@ -55,6 +55,10 @@ ul a{
     font-size: 18px;
 }
 
+ul a:hover{
+    color:lightskyblue;
+}
+
 ul li{
     margin-left: 20px;
 }
@@ -76,12 +80,20 @@ ul li{
     border-radius: 15%;
     padding: 15px;
 }
+.signupbutton a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.signupbutton a:hover{
+    color: lightskyblue
+}
 
 .navbar img{
-    margin-top: 40px;
-    width: 350px;
-    height: 180px;
-    margin-right: 180px;
+    margin-top: 110px;
+    width: 380px;
+    height: 200px;
+    margin-right: 160px;
     
 }
 
@@ -89,7 +101,37 @@ ul li{
     color: #e5e7eb;
     font-size: 18px;
 }
-
-.images{
+.content{
+    margin-top: 20px;
+    max-width: 1500px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images{
+    width: 750px;
+    display: flex;
+    margin-top: 30px;
+    justify-items: center;
+}
+
+.images img{
+    width: 145px;
+    height: 150px;
+}
+h1{
+    filter: contrast(70%);
+}
+
+.imagetxt{
+    filter: contrast(60%);
+}
+
+.image1,
+.image2, 
+.image3, 
+.image4{
+    width: 150px;
+    text-align: center;
+    margin-right: 40px;
 }
