@@ -89,3 +89,7 @@ ul li{
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.images{
+    display: flex;
+}
