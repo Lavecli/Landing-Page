@@ -135,3 +135,28 @@ h1{
     text-align: center;
     margin-right: 40px;
 }
+
+.quotes{
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    background: #e5e7eb;
+    height: 400px;
+}
+
+.quotetext{
+    font-style: italic;
+    max-width: 800px;
+    font-weight: 100;
+}
+
+.qauthor{
+    margin-top: 35px;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 24px;
+}
