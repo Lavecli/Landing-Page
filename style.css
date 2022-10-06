@@ -5,55 +5,77 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar{
+    padding-left: 10%;
+    justify-content: left;
+    border: solid grey;
+    display: flex;
     background:#1f2937;
     height: 500px;
+    flex-shrink: 1;
 }
+.lake{
+    width: 50%;
+    flex-shrink: 1;
+    align-items: flex-start;
+    display: flex;
+    max-width: 1230px;
+}
+
 
 .sec-navbar{
     display: flex;
-    width: 500px;
-    margin: 0 auto;
     flex-direction: column;
-    margin-right: 25px;
-    margin-top: 100px;
+    flex-shrink: 1;
 }
 
 .hero{
+    flex-shrink: 1;
+    margin-top: 70px;
     color:#f9faf8;
     font-size: 48px;
     font-weight: bolder;
 }
 
 .second{
+    flex-shrink:1;
     width: 400px;
     filter: contrast(70%);
 }
 .container{
+    padding-left: 50px;
+    width: 45%;
+    order: 2;
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 30px;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start
+    align-items: flex-start;
+    flex-shrink: 2;
 }
 
 .logo{
     color: #f9faf8;
     font-size: 24px;
+    flex-shrink: 1;
 }
 
 ul{
+    width: 170%;
     display: flex;
-    list-style-type: none;
     justify-content: space-between;
-    margin-right: 205px;
+    list-style-type: none;
+    flex-shrink: 1;
 }
 
 ul a{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 ul a:hover{
@@ -61,14 +83,10 @@ ul a:hover{
 }
 
 ul li{
-    margin-left: 20px;
+   justify-content: space-between;
 }
 
-.lake{
-    display: flex;
-    max-width: 1230px;
-    height: 220px;
-}
+
 
 .signupbutton{
     justify-content: center;
@@ -92,9 +110,9 @@ ul li{
 
 .navbar img{
     margin-top: 110px;
-    width: 380px;
+    width: 230%;
     height: 200px;
-    margin-right: 160px;
+    flex-shrink: 1;
     
 }
 
@@ -110,10 +128,12 @@ ul li{
     align-items: center;
 }
 .images{
-    width: 750px;
+    margin-left: 20px;
+    height: 200px;
     display: flex;
     margin-top: 30px;
-    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap
 }
 
 .images img{
@@ -144,7 +164,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 69px;
+    margin-top: 170px;
     background: #e5e7eb;
     height: 400px;
 }
@@ -162,24 +182,35 @@ h1{
     font-size: 24px;
 }
 
+.actioncontainer{
+    min-width: 200px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 50px;
+}
+
 .action{
+    min-width: 200px;
     margin-bottom: 50px;
-    margin-left: 270px;
     margin-top: 50px;
-    width: 700px;
     background: #3882F6;
     height:150px;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .actionleft{
+    flex-shrink: 1;
     align-self: center;
-    margin-left: 50px;
+    justify-content: left;
 }
 
 .sign{
     border: solid white 2px;
-    margin-left: 110px;
+    margin-left: 50px;
     width: 100px;
     height: 40px;
     padding: 5px;
@@ -189,6 +220,7 @@ h1{
     align-items: center;
     color:#f9faf8;
     justify-content: center;
+    flex-shrink: 1;
 }
 
 .mainaction{
@@ -202,6 +234,7 @@ h1{
 }
 
 .footer{
+    width: 100%;
     color: white;
     background:#1f2937;
     display: flex;
