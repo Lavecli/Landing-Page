@@ -160,3 +160,42 @@ h1{
     font-weight: bold;
     font-size: 24px;
 }
+
+.action{
+    margin-bottom: 50px;
+    margin-left: 270px;
+    margin-top: 50px;
+    width: 700px;
+    background: #3882F6;
+    height:150px;
+    display: flex;
+}
+
+.actionleft{
+    align-self: center;
+    margin-left: 50px;
+}
+
+.sign{
+    border: solid white 2px;
+    margin-left: 110px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 20%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    color:#f9faf8;
+    justify-content: center;
+}
+
+.mainaction{
+    color: white;
+    font-weight: bold;
+}
+
+.secaction{
+    color: white;
+    filter: contrast(70%);
+}
