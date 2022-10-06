@@ -47,6 +47,7 @@ ul{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    margin-right: 205px;
 }
 
 ul a{
@@ -198,4 +199,13 @@ h1{
 .secaction{
     color: white;
     filter: contrast(70%);
+}
+
+.footer{
+    color: white;
+    background:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
